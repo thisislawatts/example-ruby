@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-RUBY-FESTIVALTTS4R-20358:
+    - '* > festivaltts4r@0.2.0':
+        reason: None given
+        expires: '2017-09-25T17:06:35.938Z'
+  SNYK-RUBY-LINGQ-20182:
+    - '* > lingq@0.3.1':
+        reason: None given
+        expires: '2017-09-25T17:06:35.938Z'
+  SNYK-RUBY-NOKOGIRI-20299:
+    - '* > jquery-rails@4.1.1':
+        reason: None given
+        expires: '2017-09-25T17:06:35.939Z'
+patch: {}
