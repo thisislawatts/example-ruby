@@ -40,7 +40,7 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'administrate', '0.1.4'
+gem 'administrate', '0.5.0'
 
 gem 'sinatra', '1.1.4'
 gem 'festivaltts4r', '0.2.0'
