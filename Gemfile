@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
+gem 'rails', '6.0.3.5'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Uglifier as compressor for JavaScript assets
@@ -40,10 +40,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem 'administrate', '0.1.4'
+gem 'administrate', '0.6.0'
 
 gem 'sinatra', '1.1.4'
 gem 'festivaltts4r', '0.2.0'
-gem 'spree', '3.0.7'
+gem 'spree', '4.0.0'
 gem 'authlogic', '1.4.3'
 gem 'devise_invitable', '1.3.4'
